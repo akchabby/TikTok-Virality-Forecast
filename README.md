@@ -68,10 +68,5 @@ tiktok-virality-forecast/
 
 ---
 
-## Demo  
-(*Coming soon*) A dashboard where users paste in a TikTok link or caption and see the virality forecast.
-
----
-
 ## Author Insight  
 Data is never neutral. This project doesn't just look at views — it challenges what it means to "go viral" and how social media manipulates our attention.

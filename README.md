@@ -11,15 +11,15 @@
 
 ![TikTok banner](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif) <!-- replace with your own banner if you have one -->
 
-## 📌 Overview  
+## Overview  
 This project analyzes TikTok video metadata to uncover patterns behind viral content.  
-Using natural language processing (NLP), time-based trends, and machine learning classification, we built a predictive model that answers:
+Using natural language processing (NLP), time-based trends, and machine learning classification, I built a predictive model that answers:
 
-> 💭 **"Will this TikTok go viral?"**
+ **"Will this TikTok go viral?"**
 
 ---
 
-## 🔍 Problem Statement  
+## Problem Statement  
 TikTok is notoriously unpredictable — but can data reveal the secrets behind virality?
 
 We explore:
@@ -30,15 +30,15 @@ We explore:
 
 ---
 
-## 📁 Dataset  
-📊 Source: [Kaggle TikTok Dataset (2022-2023)](https://www.kaggle.com/datasets/advaypatil/tiktok-dataset)  
+## Dataset  
+Source: [Kaggle TikTok Dataset (2022-2023)](https://www.kaggle.com/datasets/advaypatil/tiktok-dataset)  
 - 50,000+ public TikToks  
 - Columns: `video_id`, `likes`, `shares`, `views`, `hashtags`, `caption`, `sound_title`, `upload_time`, `length`  
 - Binary `is_viral` flag for classification
 
 ---
 
-## 🧪 Technologies Used  
+## Technologies Used  
 - `Python`  
 - `pandas`, `numpy`  
 - `scikit-learn`, `xgboost`  
@@ -48,4 +48,4 @@ We explore:
 
 ---
 
-## 🔧 Project Structure
+## Project Structure

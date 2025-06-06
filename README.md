@@ -31,16 +31,7 @@ TikTok is notoriously unpredictable — but can data reveal the secrets behind v
 Source: [TikTok User Engagement Data](https://www.kaggle.com/datasets/yakhyojon/tiktok/data)
 - Thousands of public TikTok user profile records
 - Collected via public scraping for research purposes
-- Columns:
-  username - TikTok handle of the user
-  followers - Total number of followers
-  following	- Number of accounts the user follows
-  likes	- Total number of likes the user has received
-  videos - Count of public videos uploaded by the user
-  hearts - Alternative count for likes (sometimes used interchangeably)
-  digg_count - Number of times the account’s videos have been favorited/saved
-  verified	- Boolean flag indicating whether the account is verified (True/False)
-  bio	- User biography text (can be used for text analysis or keyword spotting)
+- Columns: username, followers, following, likes, videos, hearts, digg_count, verified, bio
 
 ---
 

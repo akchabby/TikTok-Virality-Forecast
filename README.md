@@ -49,3 +49,45 @@ Source: [Kaggle TikTok Dataset (2022-2023)](https://www.kaggle.com/datasets/adva
 ---
 
 ## Project Structure
+tiktok-virality-forecast/
+│
+├── data/ # Raw and cleaned datasets
+├── notebooks/ # Jupyter Notebooks for EDA and modeling
+├── models/ # Saved ML models
+├── app/ # Streamlit/Dash app (optional)
+├── README.md
+├── requirements.txt
+└── .gitattributes # For GitHub language override
+
+
+---
+
+## Key Results  
+✅ Cleaned and transformed 50K+ records  
+✅ Extracted top-performing hashtags and engagement patterns  
+✅ Achieved **85% accuracy** in predicting viral videos  
+✅ Visualized caption sentiment vs. video success  
+
+---
+
+## Next Steps  
+- Add real-time data pipeline  
+- Train deep learning model (BERT or LSTM) on caption text  
+- Fine-tune threshold of virality (beyond binary)  
+- Launch mini dashboard for users to test videos pre-post
+
+---
+
+## Demo  
+(*Coming soon*) A dashboard where users paste in a TikTok link or caption and see the virality forecast.
+
+---
+
+## Author Insight  
+Data is never neutral. This project doesn't just look at views — it challenges what it means to "go viral" and how social media manipulates our attention.
+
+---
+
+
+
+

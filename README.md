@@ -11,7 +11,7 @@
 
 ![TikTok banner](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif) <!-- replace with your own banner if you have one -->
 
-## Overview  
+# Overview  
 This project explores what makes TikTok creators go viral by analyzing public user data. Using the luminati-io/TikTok-dataset-samples, I dive into user metrics to uncover trends behind high engagement and follower growth.
 ---
 

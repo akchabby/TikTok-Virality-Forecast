@@ -29,7 +29,7 @@ TikTok is notoriously unpredictable — but can data reveal the secrets behind v
 
 ## Dataset  
 Source: [TikTok User Engagement Data](https://www.kaggle.com/datasets/yakhyojon/tiktok/data)
-• Thousands of public TikTok user profile records
+- 'Thousands of public TikTok user profile records'
 • Collected via public scraping for research purposes
 • Columns:
   username - TikTok handle of the user

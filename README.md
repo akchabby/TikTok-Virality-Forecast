@@ -27,22 +27,32 @@ TikTok is notoriously unpredictable — but can data reveal the secrets behind v
 
 ---
 
-## Dataset  
-Source: [TikTok User Engagement Data](https://www.kaggle.com/datasets/yakhyojon/tiktok/data)
-- Thousands of public TikTok user profile records
-- Collected via public scraping for research purposes
-- Columns: username, followers, following, likes, videos, hearts, digg_count, verified, bio
+## 📁 Dataset  
+📊 **Source:** [TikTok Dataset Samples by Luminati](https://github.com/luminati-io/TikTok-dataset-samples)  
+- Thousands of public TikTok user profile records  
+- Collected via public scraping for research purposes  
+- Columns:
+
+| Column         | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| `username`     | TikTok handle of the user                                                   |
+| `followers`    | Total number of followers                                                   |
+| `following`    | Number of accounts the user follows                                         |
+| `likes`        | Total number of likes the user has received                                 |
+| `videos`       | Count of public videos uploaded by the user                                 |
+| `hearts`       | Alternative count for likes (sometimes used interchangeably)                |
+| `digg_count`   | Number of times the account’s videos have been favorited/saved              |
+| `verified`     | Boolean flag indicating whether the account is verified (`True/False`)      |
+| `bio`          | User biography text (can be used for text analysis or keyword spotting)     |
 
 ---
 
 ## Technologies Used  
 - `Python`  
 - `pandas`, `numpy`  
-- `scikit-learn`, `xgboost`  
-- `spaCy` for NLP  
+- `scikit-learn` 
 - `matplotlib`, `seaborn`, `plotly`  
-- *(Optional)*: `Streamlit` for app interface
-
+- `Jupyter Notebook`
 ---
 
 ## Project Structure
@@ -56,23 +66,6 @@ tiktok-virality-forecast/
 ├── requirements.txt
 └── .gitattributes # For GitHub language override
 
-
----
-
-## Key Results  
-✅ Cleaned and transformed 50K+ records  
-✅ Extracted top-performing hashtags and engagement patterns  
-✅ Achieved **85% accuracy** in predicting viral videos  
-✅ Visualized caption sentiment vs. video success  
-
----
-
-## Next Steps  
-- Add real-time data pipeline  
-- Train deep learning model (BERT or LSTM) on caption text  
-- Fine-tune threshold of virality (beyond binary)  
-- Launch mini dashboard for users to test videos pre-post
-
 ---
 
 ## Demo  
@@ -82,9 +75,3 @@ tiktok-virality-forecast/
 
 ## Author Insight  
 Data is never neutral. This project doesn't just look at views — it challenges what it means to "go viral" and how social media manipulates our attention.
-
----
-
-
-
-

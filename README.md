@@ -12,29 +12,35 @@
 ![TikTok banner](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif) <!-- replace with your own banner if you have one -->
 
 ## Overview  
-This project analyzes TikTok video metadata to uncover patterns behind viral content.  
-Using natural language processing (NLP), time-based trends, and machine learning classification, I built a predictive model that answers:
-
- **"Will this TikTok go viral?"**
-
+This project explores what makes TikTok creators go viral by analyzing public user data. Using the luminati-io/TikTok-dataset-samples, I dive into user metrics to uncover trends behind high engagement and follower growth.
 ---
 
 ## Problem Statement  
 TikTok is notoriously unpredictable — but can data reveal the secrets behind virality?
 
-We explore:
-- 🔠 Do specific hashtags or caption tones influence engagement?
-- ⏰ Does upload time affect views?
-- 🎧 Do certain sounds drive trends?
-- 🧠 Can we predict virality using a model trained on real-world videos?
+# Objective
+- The goal is to detect common traits among viral TikTok creators, such as:
+- Posting frequency vs. follower count
+- Verification status and growth rate
+- Likes-to-follower ratio as an engagement signal
+- Does "niche" content outperform mainstream trends?
 
 ---
 
 ## Dataset  
-Source: [Kaggle TikTok Dataset (2022-2023)](https://www.kaggle.com/datasets/advaypatil/tiktok-dataset)  
-- 50,000+ public TikToks  
-- Columns: `video_id`, `likes`, `shares`, `views`, `hashtags`, `caption`, `sound_title`, `upload_time`, `length`  
-- Binary `is_viral` flag for classification
+Source: [TikTok User Engagement Data](https://www.kaggle.com/datasets/yakhyojon/tiktok/data)
+• Thousands of public TikTok user profile records
+• Collected via public scraping for research purposes
+• Columns:
+  username - TikTok handle of the user
+  followers - Total number of followers
+  following	- Number of accounts the user follows
+  likes	- Total number of likes the user has received
+  videos - Count of public videos uploaded by the user
+  hearts - Alternative count for likes (sometimes used interchangeably)
+  digg_count - Number of times the account’s videos have been favorited/saved
+  verified	- Boolean flag indicating whether the account is verified (True/False)
+  bio	- User biography text (can be used for text analysis or keyword spotting)
 
 ---
 
